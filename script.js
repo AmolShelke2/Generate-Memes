@@ -19,11 +19,12 @@ const memesSrc = [
 
 const memeImg = document.querySelector(".meme");
 const getBtn = document.getElementById("btn");
+const container = document.querySelector(".img-container");
 
-memeImg.style.display = "none";
+container.style.display = "none";
 
 getBtn.addEventListener("click", function () {
   const randomMeme = Math.floor(Math.random() * memesSrc.length);
   memeImg.src = memesSrc[randomMeme];
-  memeImg.style.display = "block";
+  container.style.display = "block";
 });

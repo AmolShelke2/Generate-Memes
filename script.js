@@ -11,3 +11,8 @@ const memesSrc = [
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_-BveXtt73oa2x0hUtj5h2yK7xEB3gAxwGpF-lwgmTo6cddUDtI8RZT7PuvlGX6hRZYM&usqp=CAU",
   "https://1.bp.blogspot.com/-UlFIpSZcNS0/YJIgP1BEzmI/AAAAAAAAETE/zWEtrl3PqmgjSwJx9ccIlqM3yW_toEZOgCLcBGAsYHQ/s2048/very-funny-indian-memes.jpg",
 ];
+
+const memeImg = document.querySelector(".meme");
+const getBtn = document.getElementById("btn");
+
+// memeImg.style.display = "none";
